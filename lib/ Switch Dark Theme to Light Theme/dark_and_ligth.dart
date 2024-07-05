@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../utils/global.dart';
+
 class DarkTheme extends StatefulWidget {
   const DarkTheme({super.key});
 
@@ -75,4 +77,3 @@ class _DarkThemeState extends State<DarkTheme> {
     );
   }
 }
- var light = ThemeData.light();
