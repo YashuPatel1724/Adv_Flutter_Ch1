@@ -30,3 +30,8 @@
 <div align="center">
 <a href="https://github.com/YashuPatel1724/Adv_Flutter_Ch1/blob/master/lib/Stepper/vertical_srepper.dart">-> 📂 Go To Dart File 📂 </a>
 </div>
+
+<h3 align="center">🔥 Provider Tree 🔥</h3>
+<p align="center">
+  <img src='https://github.com/Aksharpatel06/adv_flutter_ch1/assets/143181114/7e7fdafc-a25b-4c2b-a878-ba5f5664eab6'>&nbsp;&nbsp;&nbsp;&nbsp;
+</p>
