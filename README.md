@@ -31,7 +31,7 @@
 <a href="https://github.com/YashuPatel1724/Adv_Flutter_Ch1/blob/master/lib/Stepper/vertical_srepper.dart">-> 📂 Go To Dart File 📂 </a>
 </div>
 
-<h2 align="center">1. Information of Provider With State Management </h2>
+<h2 align="center">3. Information of Provider With State Management </h2>
 
 ## 1 State Management :
 
