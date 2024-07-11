@@ -75,7 +75,7 @@ Ans -> The Consumer widget has two main purposes: It allows obtaining a value fr
   <img height="550"  src="https://github.com/HirenCodeMaster11/Adv_Flutter_Ch1/assets/148859956/8e9c0268-dfde-4c8b-8e9f-42794af871bc" />
 </div>
 
-h1 align="center">👉 Provider & Change Theme using Provider 👈</h1>
+<h1 align="center">👉 Provider & Change Theme using Provider 👈</h1>
 
 <h3 align="center"> Provider & Change Theme using Provider Video </h3>
 <div align="center">
@@ -91,4 +91,23 @@ h1 align="center">👉 Provider & Change Theme using Provider 👈</h1>
 </div>
 <div align="center">
 <a href="https://github.com/YashuPatel1724/Adv_Flutter_Ch1/tree/master/lib/Provider%20%26%20Change%20Theme%20using%20Provider">-> 📂 Go To Dart File 📂 </a>
+</div>
+
+<h1 align="center">👉 Quotes Data Solving with Provider 👈</h1>
+
+<h3 align="center"> Quotes Data Solving with Provider Video </h3>
+<div align="center">
+ <video src="https://github.com/YashuPatel1724/Adv_Flutter_Ch1/assets/148859965/f605e2b5-cc32-435d-962f-41b2d674c9ea"> 
+</video>
+</div>
+
+<h3 align="center">👉 Quotes Data Solving with Provider 👈</h3>
+
+<div align="center">
+  <img height="550"  src="https://github.com/YashuPatel1724/Adv_Flutter_Ch1/assets/148859965/12882856-c1e6-46ec-9aa3-eabd33d7a2af" />
+  <img height="550"  src="https://github.com/YashuPatel1724/Adv_Flutter_Ch1/assets/148859965/df149469-1a79-49f6-acdf-12b337532a7e" />
+  <img height="550"  src="https://github.com/YashuPatel1724/Adv_Flutter_Ch1/assets/148859965/332f6a45-bbe5-45db-965e-5f60c7310698" />
+</div>
+<div align="center">
+<a href="https://github.com/YashuPatel1724/Adv_Flutter_Ch1/tree/master/lib/Quotes%20Data%20Solving%20with%20Provider">-> 📂 Go To Dart File 📂 </a>
 </div>
