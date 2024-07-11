@@ -74,3 +74,21 @@ Ans -> The Consumer widget has two main purposes: It allows obtaining a value fr
 <div align="center">
   <img height="550"  src="https://github.com/HirenCodeMaster11/Adv_Flutter_Ch1/assets/148859956/8e9c0268-dfde-4c8b-8e9f-42794af871bc" />
 </div>
+
+h1 align="center">👉 Provider & Change Theme using Provider 👈</h1>
+
+<h3 align="center"> Provider & Change Theme using Provider Video </h3>
+<div align="center">
+ <video src="https://github.com/YashuPatel1724/Adv_Flutter_Ch1/assets/148859965/007f0ad4-e80f-447b-bc62-d24af5e8f02b"> 
+</video>
+</div>
+
+<h3 align="center">👉 Provider & Change Theme using Provider 👈</h3>
+
+<div align="center">
+  <img height="550"  src="https://github.com/YashuPatel1724/Adv_Flutter_Ch1/assets/148859965/3ef7333f-d8f6-4ae8-8a5f-ba6f824f0f80" />
+  <img height="550"  src="https://github.com/YashuPatel1724/Adv_Flutter_Ch1/assets/148859965/51363f4a-8228-4966-8d91-2f33f5561a68" />
+</div>
+<div align="center">
+<a href="https://github.com/YashuPatel1724/timer_daily_task/tree/master/lib">-> 📂 Go To Dart File 📂 </a>
+</div>
