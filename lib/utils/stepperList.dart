@@ -90,6 +90,7 @@ List<Step> builStep() {
       ),
       content: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
+        mainAxisAlignment: MainAxisAlignment.start,
         children: [
           Text('First Name : ${fname}',style: TextStyle(fontSize: 25),),
           Text('Last Name  : ${lname}',style: TextStyle(fontSize: 25),),
