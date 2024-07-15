@@ -111,3 +111,23 @@ Ans -> The Consumer widget has two main purposes: It allows obtaining a value fr
 <div align="center">
 <a href="https://github.com/YashuPatel1724/Adv_Flutter_Ch1/tree/master/lib/Quotes%20Data%20Solving%20with%20Provider">-> 📂 Go To Dart File 📂 </a>
 </div>
+
+<h1 align="center">👉 One Time Intro Screen in Flutter  👈</h1>
+
+<h3 align="center"> One Time Intro Screen in Flutter  Video </h3>
+<div align="center">
+ <video src="https://github.com/user-attachments/assets/5b29d498-a2b8-4b6d-b9ad-727b973318f5"> 
+</video>
+</div>
+
+<h3 align="center">👉 One Time Intro Screen in Flutter  👈</h3>
+
+<div align="center">
+  <img height="550"  src="https://github.com/user-attachments/assets/6f13caa6-6b16-4b88-82d0-57b41334b6ca" />
+  <img height="550"  src="https://github.com/user-attachments/assets/687b36f0-f624-460f-b9f3-39752ad63e66" />
+  <img height="550"  src="https://github.com/user-attachments/assets/5629f15f-fafa-414b-aac1-791f729e7812" />
+  <img height="550"  src="https://github.com/user-attachments/assets/d595f165-e348-4020-8f04-3092b62346e1" />
+</div>
+<div align="center">
+<a href="https://github.com/YashuPatel1724/Adv_Flutter_Ch1/tree/master/lib/One%20Time%20Intro%20Screen%20in%20Flutter">-> 📂 Go To Dart File 📂 </a>
+</div>
