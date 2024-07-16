@@ -131,3 +131,20 @@ Ans -> The Consumer widget has two main purposes: It allows obtaining a value fr
 <div align="center">
 <a href="https://github.com/YashuPatel1724/Adv_Flutter_Ch1/tree/master/lib/One%20Time%20Intro%20Screen%20in%20Flutter">-> 📂 Go To Dart File 📂 </a>
 </div>
+
+<h1 align="center">👉 URL Launcher  👈</h1>
+
+<h3 align="center"> URL Launcher  Video </h3>
+<div align="center">
+ <video src="https://github.com/user-attachments/assets/6ab3cd2c-eb87-4159-9333-ff67cb7ce872"> 
+</video>
+</div>
+
+<h3 align="center">👉 URL Launcher  👈</h3>
+
+<div align="center">
+  <img height="550"  src="https://github.com/user-attachments/assets/40d618fb-e582-4e85-a429-18ddb80e3c04" />
+</div>
+<div align="center">
+<a href="https://github.com/YashuPatel1724/Adv_Flutter_Ch1/tree/master/lib/Contact%20Us%20Page%20With%20Interaction">-> 📂 Go To Dart File 📂 </a>
+</div>
