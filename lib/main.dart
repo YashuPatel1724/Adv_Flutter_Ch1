@@ -1,3 +1,4 @@
+import 'package:adv_flutter_ch1/Contact%20Us%20Page%20With%20Interaction/view/screen/urlProvider.dart';
 import 'package:adv_flutter_ch1/One%20Time%20Intro%20Screen%20in%20Flutter/provider/IntroProvide.dart';
 import 'package:adv_flutter_ch1/One%20Time%20Intro%20Screen%20in%20Flutter/view/IntroScreen1.dart';
 import 'package:adv_flutter_ch1/One%20Time%20Intro%20Screen%20in%20Flutter/view/homePage.dart';
@@ -11,18 +12,16 @@ import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import ' Switch Dark Theme to Light Theme/dark_and_ligth.dart';
+import 'Contact Us Page With Interaction/provider/urlProvider.dart';
 import 'One Time Intro Screen in Flutter/view/introScreen2.dart';
 import 'One Time Intro Screen in Flutter/view/introScreen3.dart';
 import 'Provider & Change Theme using Provider/Provider/Theme _Provider.dart';
 import 'Provider & Change Theme using Provider/View/Change_Theme_using_Provider.dart';
 
 Future<void> main() async {
-  WidgetsFlutterBinding.ensureInitialized();
-  SharedPreferences sharedPreferences = await SharedPreferences.getInstance();
-  bool intros = sharedPreferences.getBool('intro') ?? false;
   runApp(
     ChangeNotifierProvider(
-        create: (context) => Introprovider(intros),
+        create: (context) => Urlprovider(),
         builder: (context, child) => MyApp()),
   );
 }
@@ -34,7 +33,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Provider.of<Introprovider>(context,listen: true).intro ? Homepage() : Introscreen1(),
+      home: UrlLauncher(),
     );
   }
 }
