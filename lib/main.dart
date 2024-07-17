@@ -2,6 +2,7 @@ import 'package:adv_flutter_ch1/Contact%20Us%20Page%20With%20Interaction/view/sc
 import 'package:adv_flutter_ch1/One%20Time%20Intro%20Screen%20in%20Flutter/provider/IntroProvide.dart';
 import 'package:adv_flutter_ch1/One%20Time%20Intro%20Screen%20in%20Flutter/view/IntroScreen1.dart';
 import 'package:adv_flutter_ch1/One%20Time%20Intro%20Screen%20in%20Flutter/view/homePage.dart';
+import 'package:adv_flutter_ch1/Photo%20Gallery%20with%20Biomateric%20authication/view/screen/photo_gallery.dart';
 import 'package:adv_flutter_ch1/Provider%20&%20Change%20Theme%20using%20Provider/View/componts/chaneTheme.dart';
 import 'package:adv_flutter_ch1/Quotes%20Data%20Solving%20with%20Provider/provider/quoteProvider.dart';
 import 'package:adv_flutter_ch1/Quotes%20Data%20Solving%20with%20Provider/view/addQuote.dart';
@@ -15,13 +16,14 @@ import ' Switch Dark Theme to Light Theme/dark_and_ligth.dart';
 import 'Contact Us Page With Interaction/provider/urlProvider.dart';
 import 'One Time Intro Screen in Flutter/view/introScreen2.dart';
 import 'One Time Intro Screen in Flutter/view/introScreen3.dart';
+import 'Photo Gallery with Biomateric authication/provider/gallery.dart';
 import 'Provider & Change Theme using Provider/Provider/Theme _Provider.dart';
 import 'Provider & Change Theme using Provider/View/Change_Theme_using_Provider.dart';
 
 Future<void> main() async {
   runApp(
     ChangeNotifierProvider(
-        create: (context) => Urlprovider(),
+        create: (context) => FringerProvider(),
         builder: (context, child) => MyApp()),
   );
 }
@@ -33,7 +35,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: UrlLauncher(),
+      home: PhotoGallery(),
     );
   }
 }
