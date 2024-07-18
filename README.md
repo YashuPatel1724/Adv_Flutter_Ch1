@@ -148,3 +148,21 @@ Ans -> The Consumer widget has two main purposes: It allows obtaining a value fr
 <div align="center">
 <a href="https://github.com/YashuPatel1724/Adv_Flutter_Ch1/tree/master/lib/Contact%20Us%20Page%20With%20Interaction">-> 📂 Go To Dart File 📂 </a>
 </div>
+
+<h1 align="center">👉 Photo Gallery With Biometric Authentication 👈</h1>
+
+<h3 align="center">Photo Gallery With Biometric Authentication Video </h3>
+<div align="center">
+ <video src="https://github.com/user-attachments/assets/c8d80946-1cb3-46bb-8fa7-0daac9c79b87"> 
+</video>
+</div>
+
+<h3 align="center">👉 Photo Gallery With Biometric Authentication 👈</h3>
+
+<div align="center">
+   <img height="550"  src="https://github.com/user-attachments/assets/fcc95e62-55de-4c7c-a633-7f4778c3968d" />
+  <img height="550"  src="https://github.com/user-attachments/assets/a30b990f-d4eb-4026-b7a4-17078a744daa" />
+</div>
+<div align="center">
+<a href="https://github.com/YashuPatel1724/Adv_Flutter_Ch1/tree/master/lib/Photo%20Gallery%20with%20Biomateric%20authication">-> 📂 Go To Dart File 📂 </a>
+</div>
