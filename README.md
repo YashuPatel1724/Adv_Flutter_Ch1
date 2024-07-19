@@ -9,6 +9,13 @@
 <a href="https://github.com/YashuPatel1724/Adv_Flutter_Ch1/tree/master/lib/%20Switch%20Dark%20Theme%20to%20Light%20Theme">-> 📂 Go To Dart File 📂 </a>
 </div>
 
+```
+darkTheme: ThemeData.dark(),
+theme: ThemeData.light(),
+themeMode: isDark?ThemeMode.dark:ThemeMode.light,
+
+```
+
 <h1 align="center">👉 Stepper Widget 👈</h1>
 
 <h3 align="center">👉 Horizontal Stepper Widget 👈</h3>
@@ -93,6 +100,11 @@ Ans -> The Consumer widget has two main purposes: It allows obtaining a value fr
 <a href="https://github.com/YashuPatel1724/Adv_Flutter_Ch1/tree/master/lib/Provider%20%26%20Change%20Theme%20using%20Provider">-> 📂 Go To Dart File 📂 </a>
 </div>
 
+## Description
+-> Dark and Light Theme Switching: Toggle between dark and light themes seamlessly.<br>
+-> State Management with Provider: Efficiently manage and propagate theme state across the application.<br>
+-> Persistent Theme Settings: Save and retrieve user-selected themes using Shared Preferences.<br>
+
 <h1 align="center">👉 Quotes Data Solving with Provider 👈</h1>
 
 <h3 align="center"> Quotes Data Solving with Provider Video </h3>
@@ -120,6 +132,45 @@ Ans -> The Consumer widget has two main purposes: It allows obtaining a value fr
 </video>
 </div>
 
+## Description
+
+-> Using Provider User Add Quotes And See The First Post Provider Join The Moadl class and Default Quotes Are Included.
+
+```
+import 'package:flutter/material.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+
+class Introprovider extends ChangeNotifier
+{
+  bool intro = false;
+  late SharedPreferences sharedPreferences;
+
+   Future<void> setHome(bool intro)
+   async {
+     sharedPreferences = await SharedPreferences.getInstance();
+     sharedPreferences.setBool('intro', intro);
+   }
+
+  void removeIntro()
+  {
+    intro = true;
+    setHome(intro);
+    notifyListeners();
+  }
+
+   // Future<void> getHome()
+   // async {
+   //   sharedPreferences = await SharedPreferences.getInstance();
+   //   intro = sharedPreferences.getBool('intro') ?? false;
+   // }
+   Introprovider(intros)
+   {
+     intro = intros;
+     notifyListeners();
+   }
+}
+```
+
 <h3 align="center">👉 One Time Intro Screen in Flutter  👈</h3>
 
 <div align="center">
@@ -131,6 +182,9 @@ Ans -> The Consumer widget has two main purposes: It allows obtaining a value fr
 <div align="center">
 <a href="https://github.com/YashuPatel1724/Adv_Flutter_Ch1/tree/master/lib/One%20Time%20Intro%20Screen%20in%20Flutter">-> 📂 Go To Dart File 📂 </a>
 </div>
+
+## Description
+-> One Time Intro Screen Project is when user first time open the app introduction screen only one time call and using Provider.
 
 <h1 align="center">👉 URL Launcher  👈</h1>
 
@@ -149,6 +203,69 @@ Ans -> The Consumer widget has two main purposes: It allows obtaining a value fr
 <a href="https://github.com/YashuPatel1724/Adv_Flutter_Ch1/tree/master/lib/Contact%20Us%20Page%20With%20Interaction">-> 📂 Go To Dart File 📂 </a>
 </div>
 
+## Description
+-> Url Launcher Project purpose is web link, Mobile Number , Gmail , etc in Application make clickable.
+
+```
+import 'dart:developer';
+
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/services.dart';
+import 'package:local_auth/local_auth.dart';
+
+// class FringerProvider extends ChangeNotifier {
+//   final auth = LocalAuthentication();
+//
+//   bool response = false;
+//
+//   Future<void> checkFringerprint() async {
+//     bool isSupported = await auth.isDeviceSupported();
+//     bool isActive = await auth.canCheckBiometrics;
+//
+//     if (isSupported && isActive) {
+//       response = await auth.authenticate(
+//           localizedReason: 'Please add your fingerprint');
+//       notifyListeners();
+//
+//       if(response)
+//         {
+//           log('fingerprint successfully worked!');
+//         }
+//     } else
+//     {
+//       log("Your device is not supported for fingerprint...!");
+//     }
+//     notifyListeners();
+//   }
+// }
+class FringerProvider extends ChangeNotifier
+{
+  final localAuth = LocalAuthentication();
+  bool didAuthenticate = false;
+
+  Future<void> authication()
+  async {
+    List<BiometricType> availableBiometrics;
+    try {
+      availableBiometrics = await localAuth.getAvailableBiometrics();
+    } on PlatformException catch (e) {
+      'device not supported';
+    }
+    try{
+       didAuthenticate = await localAuth.authenticate(
+        localizedReason: 'Please authenticate to access secure data',
+      );
+      didAuthenticate = didAuthenticate;
+      notifyListeners();
+    }on PlatformException catch(e)
+    {
+      print(e);
+    }
+  }
+}
+
+```
+
 <h1 align="center">👉 Photo Gallery With Biometric Authentication 👈</h1>
 
 <h3 align="center">Photo Gallery With Biometric Authentication Video </h3>
@@ -166,3 +283,8 @@ Ans -> The Consumer widget has two main purposes: It allows obtaining a value fr
 <div align="center">
 <a href="https://github.com/YashuPatel1724/Adv_Flutter_Ch1/tree/master/lib/Photo%20Gallery%20with%20Biomateric%20authication">-> 📂 Go To Dart File 📂 </a>
 </div>
+
+## Description
+-> Photo Gallery: Display a grid of photos from the device.<br>
+-> Biometric Authentication: Secure the gallery with biometric authentication using fingerprints or facial recognition.<br>
+-> User-Friendly Interface: Easy-to-navigate UI for accessing and viewing photos<br> 
